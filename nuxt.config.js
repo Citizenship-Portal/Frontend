@@ -1,6 +1,9 @@
 
 export default {
   mode: 'universal',
+  router: {
+    base: '/Frontend-Development/'
+  },
   /*
   ** Headers of the page
   */
