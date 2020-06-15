@@ -1,0 +1,23 @@
+{
+  "name": "portal-new",
+  "version": "1.0.0",
+  "description": "My wonderful Nuxt.js project",
+  "author": "ricky",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@hursey013/tailwindcss-uswds": "https://github.com/ricky-sb/tailwindcss-uswds",
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/dotenv": "^1.4.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
