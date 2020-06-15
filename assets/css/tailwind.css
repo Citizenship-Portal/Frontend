@@ -6,6 +6,15 @@
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
 
+
 body {
   @apply font-public-sans
+}
+
+.btn {
+  @apply text-white font-bold px-5 py-3 rounded
+}
+
+.btn:focus {
+  @apply outline-none shadow-outline
 }

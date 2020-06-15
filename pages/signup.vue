@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header>Log In</Header>
+    <Header>Sign Up</Header>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import Header from "../components/Header";
 
 export default {
-  name: "login",
+  name: "signup",
   components: {Header}
 }
 </script>

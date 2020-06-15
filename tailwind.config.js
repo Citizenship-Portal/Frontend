@@ -1,5 +1,8 @@
 module.exports = {
   theme: {
+    boxShadow: {
+      outline: '0 0 0 4px rgba(36, 145, 255, 1)',
+    },
     container: {
       center: true
     },
