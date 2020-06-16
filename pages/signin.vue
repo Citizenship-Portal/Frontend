@@ -6,7 +6,7 @@
       <form class="usa-form usa-form--large">
         <fieldset class="usa-fieldset">
           <legend class="usa-legend">Sign in</legend>
-          <span>or <a href="./signup/">create an account</a></span>
+          <span>or <a href="/signup/">create an account</a></span>
 
           <label class="usa-label" for="username">Username or email address</label>
           <input class="usa-input" id="username" name="username" type="text" autocapitalize="off" autocorrect="off">
