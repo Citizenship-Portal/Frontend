@@ -1,5 +1,8 @@
 export default {
   mode: 'universal',
+  router: {
+    base: '/demo/'
+  },
   /*
   ** Headers of the page
   */
@@ -16,7 +19,7 @@ export default {
       {hid: 'description', name: 'description', content: 'Initial demo of what a Citizenship Portal could look like.'}
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+      {rel: 'icon', type: 'image/x-icon', href: '/demo/favicon.ico'}
     ]
   },
   /*
