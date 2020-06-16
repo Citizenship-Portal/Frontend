@@ -1,19 +1,20 @@
 <template>
   <div class="tw-flex tw-flex-col tw-min-h-screen">
     <Header>Citizenship Portal</Header>
+    <img
+      class="tw-mt-2 tw-object-cover tw-object-center tw-w-full"
+      style="max-height: 418px"
+      src="~/assets/images/statue-of-liberty.jpg"
+      alt="Statue of Liberty">
     <div class="grid-container tw-flex-1 tw-w-full tw-flex tw-flex-col tw-mx-auto tw-items-center" id="main-content">
-      <img
-        class="tw-mt-2 lg:tw-mt-12"
-        src="https://images.unsplash.com/photo-1492217072584-7ff26c10eb75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&h=211"
-        alt="Statue of Liberty">
-      <div class="tw-container tw-p-6">
+      <div class="tw-container tw-p-6 md:tw-max-w-md lg:tw-max-w-lg">
         <div class="tw-flex tw-items-center">
-          <img alt="Logo" src="~/assets/images/logo.svg">
-          <p class="tw-ml-4 tw-font-bold tw-text-ink tw-leading-tight">A unified portal where residents can access all
+          <img alt="Logo" src="~/assets/images/logo.svg" class="md:tw-hidden">
+          <p class="tw-ml-4 md:tw-ml-0 tw-font-bold tw-text-ink tw-leading-tight">A unified portal where residents can access all
             their
-            government information</p>
+            government information.</p>
         </div>
-        <div class="tw-mt-6 tw-flex tw-flex-col tw-space-y-6 tw-items-center">
+        <div class="tw-mt-6 tw-flex tw-flex-col tw-space-y-6 tw-items-center md:tw-flex-row md:tw-justify-center md:tw-space-y-0 md:tw-justify-between ">
           <nuxt-link to="/signup">
             <button class="usa-button">Create Account
             </button>
@@ -25,14 +26,14 @@
           </nuxt-link>
         </div>
         <h2 class="tw-mt-10 tw-text-ink tw-text-2xl tw-text-center">What can we help you find?</h2>
-        <div class="tw-flex tw-flex-col tw-items-center tw-justify-center">
+        <div class="tw-flex tw-flex-col tw-items-center tw-justify-center md:tw-flex-row md:tw-justify-between">
           <div class="tw-flex tw-flex-col tw-items-center tw-mt-6">
             <img src="~/assets/images/elections.svg" alt="Elections">
-            <p class="tw-font-bold tw-text-ink">Register to Vote</p>
+            <p class="tw-font-bold tw-text-ink tw-mt-2">Register to Vote</p>
           </div>
           <div class="tw-flex tw-flex-col tw-items-center tw-mt-6">
             <img src="~/assets/images/ubi.svg" alt="Elections">
-            <p class="tw-font-bold tw-text-ink">Universal Basic Income</p>
+            <p class="tw-font-bold tw-text-ink tw-mt-2">Universal Basic Income</p>
           </div>
         </div>
       </div>
