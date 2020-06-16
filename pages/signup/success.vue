@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="tw-min-h-screen tw-flex tw-flex-col">
     <Header>Citizenship Portal - Sign Up</Header>
-    <div class="grid-container tw-p-6">
+    <div class="grid-container tw-p-6 tw-flex-1 tw-w-full tw-flex tw-flex-col tw-justify-center" id="main-content">
       <div class="tw-flex tw-flex-col tw-justify-center tw-items-center">
         <h2 class="tw-font-bold text-green tw-text-3xl">Congratulations!</h2>
         <h4 class="text-ink tw-font-bold tw-mt-6 tw-mx-6 tw-text-center">You’re now able to access all your appropriate
