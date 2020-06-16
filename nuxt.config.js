@@ -1,8 +1,5 @@
 export default {
   mode: 'universal',
-  router: {
-    base: '/Frontend-Development/'
-  },
   /*
   ** Headers of the page
   */
@@ -16,7 +13,7 @@ export default {
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      {hid: 'description', name: 'description', content: process.env.npm_package_description || ''}
+      {hid: 'description', name: 'description', content: 'Initial demo of what a Citizenship Portal could look like.'}
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
@@ -25,7 +22,7 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: {color: '#fff'},
+  loading: {color: '#005ea2'},
   /*
   ** Global CSS
   */
@@ -53,6 +50,18 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
   ],
+  pwa: {
+    meta: {
+      name: 'Citizenship Portal',
+    },
+    icon: {
+      iconSrc: '~/assets/images/logo.png'
+    },
+    manifest: {
+      name: 'Citizenship Portal',
+      lang: 'en'
+    }
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

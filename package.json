@@ -1,8 +1,8 @@
 {
-  "name": "portal-new",
+  "name": "citizenship-portal",
   "version": "1.0.0",
-  "description": "My wonderful Nuxt.js project",
-  "author": "ricky",
+  "description": "Initial demo of what a Citizenship Portal could look like.",
+  "author": "Ricky Lalwani",
   "private": true,
   "scripts": {
     "dev": "nuxt",
