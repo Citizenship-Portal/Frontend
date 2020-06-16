@@ -1,7 +1,7 @@
 <template>
   <div class="tw-flex tw-flex-col tw-min-h-screen">
     <Header/>
-    <div class="grid-container tw-flex-1 tw-flex tw-flex-col tw-mx-auto tw-items-center">
+    <div class="grid-container tw-flex-1 tw-flex tw-flex-col tw-mx-auto tw-items-center" id="main-content">
       <img
         class="tw-mt-2 lg:tw-mt-12"
         src="https://images.unsplash.com/photo-1492217072584-7ff26c10eb75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&h=211"
