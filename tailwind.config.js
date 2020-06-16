@@ -1,21 +1,31 @@
 module.exports = {
+  prefix: 'tw-',
   theme: {
+    container: {
+      center: true,
+      padding: '1rem'
+    },
+    fontFamily: {
+      heading: ['Roboto Condensed', 'sans-serif'],
+      sans: ['Public Sans', 'sans-serif']
+    },
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px'
+    },
     boxShadow: {
       outline: '0 0 0 4px rgba(36, 145, 255, 1)',
     },
-    container: {
-      center: true
-    },
     extend: {
-      fontFamily: {
-        'public-sans': ['Public Sans', 'sans-serif']
+      screens: {
+        print: {raw: 'print'}
       }
     }
   },
   variants: {
     textColor: ['responsive', 'hover', 'focus', 'visited'],
     backgroundColor: ['responsive', 'hover', 'focus', 'active'],
-
   },
   plugins: [require('@hursey013/tailwindcss-uswds')],
   purge: {
