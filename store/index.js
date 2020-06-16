@@ -3,7 +3,7 @@ export const state = () => ({
 })
 
 export const mutations = {
-  accept(state) {
+  accept (state) {
     state.acceptedDisclaimer = true
   }
 }
