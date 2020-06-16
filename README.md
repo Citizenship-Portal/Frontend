@@ -1,6 +1,9 @@
-# portal-new
+[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+[![Setup Automated](https://img.shields.io/badge/setup-automated-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
-> My wonderful Nuxt.js project
+# Citizenship Portal
+
+> Initial demo of what a Citizenship Portal could look like.
 
 ## Build Setup
 
@@ -20,3 +23,6 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Citizenship-Portal/Frontend-Development)
