@@ -1,27 +1,59 @@
 <template>
-  <div>
-    <div>
-      <a href="#" @click="scrollToTop" class="px-5 underline text-primary visited:text-primary ">Return to top</a>
+  <footer class="usa-footer usa-footer--slim">
+    <div class="grid-container usa-footer__return-to-top">
+      <a href="#" @click="scrollToTop">Return to top</a>
     </div>
-    <div class="flex flex-col bg-base-lightest mt-3">
-      <a href="#" class="text-ink font-bold p-5 visited:text-ink border-black border-t">Documentation</a>
-      <a href="#" class="text-ink font-bold p-5 visited:text-ink border-black border-t">Features</a>
-      <a href="#" class="text-ink font-bold p-5 visited:text-ink border-black border-t">About us</a>
-      <a href="#" class="text-ink font-bold p-5 visited:text-ink border-black border-t">Getting started</a>
-      <div class="text-ink p-5 border-black border-t flex justify-between">
-        <span>(800) CALL-GOVT</span>
-        <span>info@agency.gov</span>
+    <div class="usa-footer__primary-section">
+      <div class="usa-footer__primary-container grid-row">
+        <div class="mobile-lg:grid-col-8">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <ul class="grid-row grid-gap">
+              <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                <a class="usa-footer__primary-link" href="javascript:void(0);">Documentation</a>
+              </li>
+              <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                <a class="usa-footer__primary-link" href="javascript:void(0);">Features</a>
+              </li>
+              <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                <a class="usa-footer__primary-link" href="javascript:void(0);">About us</a>
+              </li>
+              <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                <a class="usa-footer__primary-link" href="javascript:void(0);">Getting started</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mobile-lg:grid-col-4">
+          <address class="usa-footer__address">
+            <div class="grid-row grid-gap">
+              <div class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto">
+                <div class="usa-footer__contact-info">
+                  <a href="tel:1-800-555-5555">(800) CALL-GOVT</a>
+                </div>
+              </div>
+              <div class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto">
+                <div class="usa-footer__contact-info">
+                  <a href="mailto:info@agency.gov">info@agency.gov</a>
+                </div>
+              </div>
+            </div>
+          </address>
+        </div>
       </div>
-      <div class="bg-base-lighter p-5 flex items-center">
-        <img class="w-12 h-12 rounded-full"
-             src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg"
-             alt="Seal">
-        <p class="font-bold text-2xl leading-tight ml-4">Department of Technology</p>
-      </div>
-
-
     </div>
-  </div>
+    <div class="usa-footer__secondary-section">
+      <div class="grid-container">
+        <div class="usa-footer__logo grid-row grid-gap-2">
+          <div class="grid-col-auto">
+            <img class="usa-footer__logo-img" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg" alt="">
+          </div>
+          <div class="grid-col-auto">
+            <h3 class="usa-footer__logo-heading">Department of Technology</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script>
@@ -32,6 +64,7 @@ export default {
       window.scrollTo({top: 0, behavior: 'smooth'})
     }
   }
+
 }
 </script>
 

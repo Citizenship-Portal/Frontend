@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col">
-    <Header>Citizenship Portal</Header>
+  <div class="flex flex-col min-h-screen">
+    <Header/>
     <div class="flex-1">
       <img
         class="mt-2"
@@ -30,7 +30,7 @@
             <p class="font-bold text-ink">Register to Vote</p>
           </div>
           <div class="flex flex-col items-center mt-6">
-            <img src="~/assets/images/ubi.png" alt="Elections">
+            <img src="~/assets/images/ubi.svg" alt="Elections">
             <p class="font-bold text-ink">Universal Basic Income</p>
           </div>
         </div>
