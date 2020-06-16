@@ -1,7 +1,7 @@
 <template>
   <footer class="usa-footer usa-footer--slim">
     <div class="grid-container usa-footer__return-to-top">
-      <a href="#" @click="scrollToTop">Return to top</a>
+      <a href="javascript:void(0);" @click="scrollToTop">Return to top</a>
     </div>
     <div class="usa-footer__primary-section">
       <div class="usa-footer__primary-container grid-row">
