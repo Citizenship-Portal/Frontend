@@ -32,7 +32,7 @@
             <p class="tw-font-bold tw-text-ink tw-mt-2">Register to Vote</p>
           </div>
           <div class="tw-flex tw-flex-col tw-items-center tw-mt-6">
-            <img src="~/assets/images/ubi.svg" alt="Elections">
+            <img src="~/assets/images/ubi.svg" alt="UBI">
             <p class="tw-font-bold tw-text-ink tw-mt-2">Universal Basic Income</p>
           </div>
         </div>

@@ -3,7 +3,7 @@
     <Header>Citizenship Portal - Sign In</Header>
 
     <div class="grid-container tw-mt-4 tw-flex-1 tw-w-full" id="main-content">
-      <form class="usa-form">
+      <form class="usa-form usa-form--large">
         <fieldset class="usa-fieldset">
           <legend class="usa-legend">Sign in</legend>
           <span>or <a href="./signup/">create an account</a></span>
