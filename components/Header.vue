@@ -55,7 +55,7 @@
       <div class="usa-nav-container">
         <div class="usa-navbar">
           <div class="usa-logo" id="basic-logo">
-            <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">Citizenship Portal</a></em>
+            <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home"><slot></slot></a></em>
           </div>
           <button class="usa-menu-btn">Menu</button>
         </div>
