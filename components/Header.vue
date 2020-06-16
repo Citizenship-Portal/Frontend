@@ -65,7 +65,7 @@
             <li class="usa-nav__primary-item">
               <button class="usa-accordion__button usa-nav__link  usa-current" aria-expanded="false"
                       aria-controls="basic-nav-section-one"><span>Current section</span></button>
-              <ul id="basic-nav-section-one" class="usa-nav__submenu">
+              <ul id="basic-nav-section-one" class="usa-nav__submenu" hidden>
                 <li class="usa-nav__submenu-item">
                   <a href="#" class=""> Navigation link</a>
                 </li>
@@ -80,7 +80,7 @@
             <li class="usa-nav__primary-item">
               <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
                       aria-controls="basic-nav-section-two"><span>Section</span></button>
-              <ul id="basic-nav-section-two" class="usa-nav__submenu">
+              <ul id="basic-nav-section-two" class="usa-nav__submenu" hidden>
                 <li class="usa-nav__submenu-item">
                   <a href="#" class=""> Navigation link</a>
                 </li>
