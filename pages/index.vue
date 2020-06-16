@@ -26,7 +26,7 @@
         <h2 class="mt-10 text-ink text-2xl text-center">What can we help you find?</h2>
         <div class="flex flex-col items-center justify-center">
           <div class="flex flex-col items-center mt-6">
-            <img src="~/assets/images/elections.png" alt="Elections">
+            <img src="~/assets/images/elections.svg" alt="Elections">
             <p class="font-bold text-ink">Register to Vote</p>
           </div>
           <div class="flex flex-col items-center mt-6">
