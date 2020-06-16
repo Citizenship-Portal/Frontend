@@ -25,15 +25,17 @@
         </div>
       </div>
     </div>
+    <Footer class="mt-12"/>
   </div>
 </template>
 
 <script>
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 export default {
   name: "success",
-  components: {Header}
+  components: {Footer, Header}
 }
 </script>
 
