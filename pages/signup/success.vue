@@ -21,10 +21,10 @@
 
         <div class="tw-col-span-2 md:tw-col-span-3"></div>
         <div class="tw-col-span-8 md:tw-col-span-6 tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-flex-row lg:tw-justify-between">
-          <div class="tw-flex tw-flex-col tw-items-center tw-mt-6 lg:tw-mt-12">
+          <a href="/voting/" class="tw-block tw-flex tw-flex-col tw-items-center tw-mt-6 lg:tw-mt-12">
             <img src="~/assets/images/elections.svg" alt="Elections">
             <p class="tw-font-bold tw-text-ink tw-mt-2">Register to Vote</p>
-          </div>
+          </a>
           <div class="tw-flex tw-flex-col tw-items-center tw-mt-6 lg:tw-mt-12">
             <img src="~/assets/images/ubi.svg" alt="UBI">
             <p class="tw-font-bold tw-text-ink tw-mt-2">Universal Basic Income</p>

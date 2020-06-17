@@ -27,10 +27,10 @@
         </div>
         <h2 class="tw-mt-10 tw-text-ink tw-text-2xl tw-text-center">What can we help you find?</h2>
         <div class="tw-flex tw-flex-col tw-items-center tw-justify-center md:tw-flex-row md:tw-justify-between">
-          <div class="tw-flex tw-flex-col tw-items-center tw-mt-6">
+          <a href="/voting/" class="tw-block tw-flex tw-flex-col tw-items-center tw-mt-6">
             <img src="~/assets/images/elections.svg" alt="Elections">
             <p class="tw-font-bold tw-text-ink tw-mt-2">Register to Vote</p>
-          </div>
+          </a>
           <div class="tw-flex tw-flex-col tw-items-center tw-mt-6">
             <img src="~/assets/images/ubi.svg" alt="UBI">
             <p class="tw-font-bold tw-text-ink tw-mt-2">Universal Basic Income</p>
