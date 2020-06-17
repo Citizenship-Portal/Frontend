@@ -2,6 +2,11 @@
   <div>
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
+    <!--This just exists to prevent our build script from removing relevant CSS-->
+    <div class="tw-hidden">
+      <div class="usa-nav is-visible usa-overlay is-visible"></div>
+    </div>
+
     <!--Not an official government website yet, leave this commented out -->
     <!--
     <section class="usa-banner" aria-label="Official government website">
@@ -55,7 +60,9 @@
       <div class="usa-nav-container">
         <div class="usa-navbar">
           <div class="usa-logo" id="basic-logo">
-            <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home"><slot></slot></a></em>
+            <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">
+              <slot></slot>
+            </a></em>
           </div>
           <button class="usa-menu-btn">Menu</button>
         </div>
@@ -114,6 +121,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+
 
 </style>
