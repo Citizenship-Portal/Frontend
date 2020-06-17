@@ -18,6 +18,7 @@ module.exports = {
       outline: '0 0 0 4px rgba(36, 145, 255, 1)',
     },
     extend: {
+      maxWidth: {'min-content': 'min-content'},
       screens: {
         print: {raw: 'print'}
       }
