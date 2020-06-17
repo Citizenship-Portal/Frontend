@@ -95,7 +95,7 @@
                       aria-controls="basic-nav-section-two"><span>UBI</span></button>
               <ul id="basic-nav-section-two" class="usa-nav__submenu" hidden>
                 <li class="usa-nav__submenu-item">
-                  <a href="#" class=""> File for UBI</a>
+                  <a href="#" class=""> File for Universal Basic Income</a>
                 </li>
                 <li class="usa-nav__submenu-item">
                   <a href="#" class=""> Connect A Bank Account</a>
