@@ -19,6 +19,9 @@ module.exports = {
     },
     extend: {
       maxWidth: {'min-content': 'min-content'},
+      spacing:{
+        '72' : '20rem'
+      },
       screens: {
         print: {raw: 'print'}
       }
