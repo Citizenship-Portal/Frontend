@@ -59,19 +59,26 @@
     <header class="usa-header usa-header--basic">
       <div class="usa-nav-container">
         <div class="usa-navbar">
-          <div class="usa-logo" id="basic-logo">
+          <div id="basic-logo" class="usa-logo">
             <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">
               <slot></slot>
             </a></em>
           </div>
-          <button class="usa-menu-btn">Menu</button>
+          <button class="usa-menu-btn">
+            Menu
+          </button>
         </div>
         <nav aria-label="Primary navigation" class="usa-nav">
-          <button class="usa-nav__close"><img src="~/assets/images/close.svg" alt="close"></button>
+          <button class="usa-nav__close">
+            <img src="~/assets/images/close.svg" alt="close">
+          </button>
           <ul class="usa-nav__primary usa-accordion">
             <li class="usa-nav__primary-item">
               <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
-                      aria-controls="basic-nav-section-one"><span>Voting</span></button>
+                      aria-controls="basic-nav-section-one"
+              >
+                <span>Voting</span>
+              </button>
               <ul id="basic-nav-section-one" class="usa-nav__submenu" hidden>
                 <li class="usa-nav__submenu-item">
                   <a href="#" class=""> Your National Representatives</a>
@@ -92,7 +99,10 @@
             </li>
             <li class="usa-nav__primary-item">
               <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
-                      aria-controls="basic-nav-section-two"><span>UBI</span></button>
+                      aria-controls="basic-nav-section-two"
+              >
+                <span>UBI</span>
+              </button>
               <ul id="basic-nav-section-two" class="usa-nav__submenu" hidden>
                 <li class="usa-nav__submenu-item">
                   <a href="#" class=""> File for Universal Basic Income</a>
@@ -105,23 +115,23 @@
           </ul>
           <form class="usa-search usa-search--small " role="search">
             <label class="usa-sr-only" for="basic-search-field-small">Search small</label>
-            <input class="usa-input" id="basic-search-field-small" type="search" name="search">
-            <button class="usa-button" type="submit"><span class="usa-sr-only">Search</span></button>
+            <input id="basic-search-field-small" class="usa-input" type="search" name="search">
+            <button class="usa-button" type="submit">
+              <span class="usa-sr-only">Search</span>
+            </button>
           </form>
         </nav>
       </div>
     </header>
   </div>
-
 </template>
 
 <script>
 export default {
-  name: "Header"
+  name: 'Header'
 }
 </script>
 
 <style>
-
 
 </style>
