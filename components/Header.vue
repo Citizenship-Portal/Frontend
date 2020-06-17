@@ -63,37 +63,37 @@
           <button class="usa-nav__close"><img src="~/assets/images/close.svg" alt="close"></button>
           <ul class="usa-nav__primary usa-accordion">
             <li class="usa-nav__primary-item">
-              <button class="usa-accordion__button usa-nav__link  usa-current" aria-expanded="false"
-                      aria-controls="basic-nav-section-one"><span>Current section</span></button>
+              <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+                      aria-controls="basic-nav-section-one"><span>Voting</span></button>
               <ul id="basic-nav-section-one" class="usa-nav__submenu" hidden>
                 <li class="usa-nav__submenu-item">
-                  <a href="#" class=""> Navigation link</a>
+                  <a href="#" class=""> Your National Representatives</a>
                 </li>
                 <li class="usa-nav__submenu-item">
-                  <a href="#" class=""> Navigation link</a>
+                  <a href="#" class=""> US Senators</a>
                 </li>
                 <li class="usa-nav__submenu-item">
-                  <a href="#" class=""> Navigation link</a>
+                  <a href="#" class=""> Members Of US Congress</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#" class=""> State Representatives</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#" class=""> Local Representatives</a>
                 </li>
               </ul>
             </li>
             <li class="usa-nav__primary-item">
               <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
-                      aria-controls="basic-nav-section-two"><span>Section</span></button>
+                      aria-controls="basic-nav-section-two"><span>UBI</span></button>
               <ul id="basic-nav-section-two" class="usa-nav__submenu" hidden>
                 <li class="usa-nav__submenu-item">
-                  <a href="#" class=""> Navigation link</a>
+                  <a href="#" class=""> File for UBI</a>
                 </li>
                 <li class="usa-nav__submenu-item">
-                  <a href="#" class=""> Navigation link</a>
-                </li>
-                <li class="usa-nav__submenu-item">
-                  <a href="#" class=""> Navigation link</a>
+                  <a href="#" class=""> Connect A Bank Account</a>
                 </li>
               </ul>
-            </li>
-            <li class="usa-nav__primary-item">
-              <a class="usa-nav__link" href="javascript:void(0)"><span>Simple link</span></a>
             </li>
           </ul>
           <form class="usa-search usa-search--small " role="search">
