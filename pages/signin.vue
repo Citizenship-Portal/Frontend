@@ -2,8 +2,8 @@
   <div class="tw-min-h-screen tw-flex tw-flex-col">
     <Header>Citizenship Portal - Sign In</Header>
 
-    <div class="grid-container tw-mt-4 tw-flex-1 tw-w-full" id="main-content">
-      <form class="usa-form usa-form--large">
+    <div class="grid-container tw-mt-4 tw-flex-1 tw-w-full tw-flex tw-justify-center" id="main-content">
+      <form class="usa-form usa-form--large tw-w-full">
         <fieldset class="usa-fieldset">
           <legend class="usa-legend">Sign in</legend>
           <span>or <a href="/signup/">create an account</a></span>

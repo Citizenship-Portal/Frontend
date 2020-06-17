@@ -2,7 +2,7 @@
   <div class="tw-min-h-screen tw-flex tw-flex-col">
     <Header>Citizenship Portal - Sign Up</Header>
     <div class="grid-container tw-mt-4 tw-flex-1 tw-w-full tw-flex tw-justify-center" id="main-content">
-      <form class="usa-form usa-form--large" @submit="checkForm">
+      <form class="usa-form usa-form--large tw-w-full" @submit="checkForm">
         <fieldset class="usa-fieldset">
           <legend class="usa-legend">Sign In Info</legend>
 
