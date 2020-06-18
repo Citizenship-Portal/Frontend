@@ -10,7 +10,6 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "jest"
-
   },
   "dependencies": {
     "@hursey013/tailwindcss-uswds": "https://github.com/ricky-sb/tailwindcss-uswds",
