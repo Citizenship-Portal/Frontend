@@ -1,16 +1,22 @@
 import { mount } from '@vue/test-utils'
 import Header from '~/components/Header.vue'
 
+let wrapper
+
 describe('Header', () => {
-  let wrapper
   beforeEach(() => {
+    // Mount the component
     wrapper = mount(Header)
   })
 
-  it('should be a Vue instance', () => {
-    expect(wrapper.isVisible()).toBeTruthy()
+  it('returns a data object', () => {
+    expect(typeof Header.data).toBe('function')
   })
-  it('should render properly', () => {
+  it('should be a Vue instance', () => {
+    // expect(wrapper.isVisible()).toBeTruthy()
+    expect(wrapper.find('form').exists()).toBeTruthy()
+  })
+  it('matches snapshot', () => {
     expect(wrapper.element).toMatchSnapshot()
   })
 })
