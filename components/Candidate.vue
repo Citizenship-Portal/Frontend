@@ -3,7 +3,9 @@
     <img :src="profilePic" :alt="name" class="tw-h-40 tw-w-auto tw-object-cover tw-object-top">
     <div class="tw-p-6 tw-flex tw-flex-col tw-justify-between tw-h-full">
       <div>
-        <h3 class="tw-text-ink tw-font-bold tw-text-xl">{{name}} - ({{affiliation}})</h3>
+        <h3 class="tw-text-ink tw-font-bold tw-text-xl">
+          {{ name }} - ({{ affiliation }})
+        </h3>
         <p class="tw-mt-6 tw-text-ink tw-leading-relaxed">
           <slot></slot>
         </p>
@@ -11,7 +13,7 @@
 
       <div class="tw-mt-8 tw-flex tw-flex-col tw-items-center">
         <a :href="votingRecord" class="tw-text-center tw-block tw-underline">See Voting Record</a>
-        <a :href="contactURL" class="usa-button tw-block tw-mt-6">Contact {{officeType}} Office</a>
+        <a :href="contactURL" class="usa-button tw-block tw-mt-6">Contact {{ officeType }} Office</a>
       </div>
     </div>
   </div>
@@ -19,7 +21,7 @@
 
 <script>
 export default {
-  name: "Candidate",
+  name: 'Candidate',
   props: {
     name: {
       type: String,
@@ -31,7 +33,7 @@ export default {
     },
     house: {
       type: Boolean,
-      default: false,
+      default: false
     },
     senate: {
       type: Boolean,
@@ -47,10 +49,10 @@ export default {
     }
   },
   computed: {
-    profilePic() {
+    profilePic () {
       return require(`~/assets/images/${this.name}.jpg`)
     },
-    officeType() {
+    officeType () {
       if (this.senate) {
         return 'Senate'
       }
