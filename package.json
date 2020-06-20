@@ -9,12 +9,13 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest test:unit --watch"
   },
   "dependencies": {
     "@hursey013/tailwindcss-uswds": "https://github.com/ricky-sb/tailwindcss-uswds",
     "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/dotenv": "^1.4.0", 
     "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "^2.0.0",
     "uswds": "^2.7.0"

@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render properly 1`] = `
+<div>
+  <a
+    class="usa-skipnav"
+    href="#main-content"
+  >
+    Skip to main content
+  </a>
+   
+  <div
+    class="tw-hidden"
+  >
+    <div
+      class="usa-nav is-visible usa-overlay is-visible"
+    />
+  </div>
+   
+  <div
+    class="usa-overlay"
+  />
+   
+  <header
+    class="usa-header usa-header--basic"
+  >
+    <div
+      class="usa-nav-container"
+    >
+      <div
+        class="usa-navbar"
+      >
+        <div
+          class="usa-logo"
+          id="basic-logo"
+        >
+          <em
+            class="usa-logo__text"
+          >
+            <a
+              aria-label="Home"
+              href="/"
+              title="Home"
+            />
+          </em>
+        </div>
+         
+        <button
+          class="usa-menu-btn"
+        >
+          
+          Menu
+        
+        </button>
+      </div>
+       
+      <nav
+        aria-label="Primary navigation"
+        class="usa-nav"
+      >
+        <button
+          class="usa-nav__close"
+        >
+          <img
+            alt="close"
+            src="~/assets/images/close.svg"
+          />
+        </button>
+         
+        <ul
+          class="usa-nav__primary usa-accordion"
+        >
+          <li
+            class="usa-nav__primary-item"
+          >
+            <button
+              aria-controls="basic-nav-section-one"
+              aria-expanded="false"
+              class="usa-accordion__button usa-nav__link"
+            >
+              <span>
+                Voting
+              </span>
+            </button>
+             
+            <ul
+              class="usa-nav__submenu"
+              hidden="hidden"
+              id="basic-nav-section-one"
+            >
+              <li
+                class="usa-nav__submenu-item"
+              >
+                <a
+                  href="#"
+                >
+                   Your National Representatives
+                </a>
+              </li>
+               
+              <li
+                class="usa-nav__submenu-item"
+              >
+                <a
+                  href="#"
+                >
+                   US Senators
+                </a>
+              </li>
+               
+              <li
+                class="usa-nav__submenu-item"
+              >
+                <a
+                  href="#"
+                >
+                   Members Of US Congress
+                </a>
+              </li>
+               
+              <li
+                class="usa-nav__submenu-item"
+              >
+                <a
+                  href="#"
+                >
+                   State Representatives
+                </a>
+              </li>
+               
+              <li
+                class="usa-nav__submenu-item"
+              >
+                <a
+                  href="#"
+                >
+                   Local Representatives
+                </a>
+              </li>
+            </ul>
+          </li>
+           
+          <li
+            class="usa-nav__primary-item"
+          >
+            <button
+              aria-controls="basic-nav-section-two"
+              aria-expanded="false"
+              class="usa-accordion__button usa-nav__link"
+            >
+              <span>
+                UBI
+              </span>
+            </button>
+             
+            <ul
+              class="usa-nav__submenu"
+              hidden="hidden"
+              id="basic-nav-section-two"
+            >
+              <li
+                class="usa-nav__submenu-item"
+              >
+                <a
+                  href="#"
+                >
+                   File for Universal Basic Income
+                </a>
+              </li>
+               
+              <li
+                class="usa-nav__submenu-item"
+              >
+                <a
+                  href="#"
+                >
+                   Connect A Bank Account
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+         
+        <form
+          class="usa-search usa-search--small "
+          role="search"
+        >
+          <label
+            class="usa-sr-only"
+            for="basic-search-field-small"
+          >
+            Search small
+          </label>
+           
+          <input
+            class="usa-input"
+            id="basic-search-field-small"
+            name="search"
+            type="search"
+          />
+           
+          <button
+            class="usa-button"
+            type="submit"
+          >
+            <span
+              class="usa-sr-only"
+            >
+              Search
+            </span>
+          </button>
+        </form>
+      </nav>
+    </div>
+  </header>
+</div>
+`;
