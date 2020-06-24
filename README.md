@@ -33,6 +33,9 @@ https://citizenshipportal.org
 
 
 # Testing 
+- [Vue Test Utils](https://vue-test-utils.vuejs.org)
+- [Jest](https://jestjs.io)
+- [jest-dom](github.com/testing-library/jest-dom)
 
  ### Get Started
 

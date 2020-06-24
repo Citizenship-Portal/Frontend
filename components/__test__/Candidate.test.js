@@ -1,30 +1,35 @@
-import { shallowMount } from '@vue/test-utils'
-import jestConfig from '../../jest.config'
+import { shallowMount, mount } from '@vue/test-utils'
 import Candidate from '~/components/Candidate.vue'
 
-let wrapper
+// const wrapper = shallowMount(Candidate, {
+//   propsData: {
+//     ...props, profilePic: () => {}
+//   }
+// })
 
 describe('Candidate', () => {
-  beforeEach(() => {
-    const props = {
-      name: 'Kamala Harris',
-      affiliation: 'D',
-      house: true,
-      senate: false,
-      contactURL: 'www.google.com',
-      votingRecord: 'lol.com'
-
-    }
-    wrapper = shallowMount(Candidate, {
-      propsData: props
-    })
-
-    console.log(Candidate.computed)
+  const props = {
+    name: 'Kamala Harris',
+    affiliation: 'D',
+    house: true,
+    senate: false,
+    contactURL: 'www.google.com',
+    votingRecord: 'lol.com'
+  }
+  const profilePic = jest.fn()
+  const wrapper = shallowMount(Candidate, {
+    props,
+    computed: { profilePic }
   })
 
-  // it('should be a Vue instance', () => {
-  //   expect(wrapper.isVueInstance).toBeTruthy()
-  // })
+  beforeEach(() => {
+
+  })
+  // Inspect the raw component options
+  it('has a created hook', () => {
+    console.log(wrapper)
+    expect(typeof Candidate.created).toBe('function')
+  })
 
   // it('computed profilePic on load', () => {
   //   const profilePic = wrapper.find('img[alt="name"]')

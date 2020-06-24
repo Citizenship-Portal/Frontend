@@ -50,13 +50,18 @@ export default {
   },
   computed: {
     profilePic () {
-      return require(`~/assets/images/${this.name}.jpg`)
+      return this.getImgPath()
     },
     officeType () {
       if (this.senate) {
         return 'Senate'
       }
       return 'Congressional'
+    }
+  },
+  methods: {
+    getImgPath () {
+      return require(`~/assets/images/${this.name}.jpg`)
     }
   }
 }
