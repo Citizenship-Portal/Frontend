@@ -17,6 +17,6 @@ describe('Header', () => {
     expect(wrapper.find('form').exists()).toBeTruthy()
   })
   it('matches snapshot', () => {
-    expect(wrapper.element).toMatchSnapshot()
+    expect(wrapper.html()).toMatchSnapshot()
   })
 })
