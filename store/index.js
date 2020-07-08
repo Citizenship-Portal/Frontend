@@ -6,4 +6,6 @@ export const mutations = {
   accept (state) {
     state.acceptedDisclaimer = true
   }
+
+  // change
 }
