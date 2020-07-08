@@ -7,5 +7,4 @@ export const mutations = {
     state.acceptedDisclaimer = true
   }
 
-  // change
 }
