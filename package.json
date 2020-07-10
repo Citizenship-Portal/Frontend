@@ -18,7 +18,7 @@
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "^2.13.3",
-    "uswds": "^2.7.1"
+    "uswds": "^2.8.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
