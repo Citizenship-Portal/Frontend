@@ -49,7 +49,7 @@
               alt="UBI"
             />
             <p class="tw-font-bold tw-text-ink tw-mt-2">
-              Universal Basic Income
+              Universal Basic Incomes
             </p>
           </div>
         </div>
