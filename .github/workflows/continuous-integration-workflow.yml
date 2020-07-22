@@ -7,11 +7,11 @@ name: Continuous Integration
 on:
   push:
     branches: [ master, action-branch ]
-    paths: [ store/, pages/, layouts/, components/]
+    paths: [ store/, pages/, layouts/, components/, .github/]
 
   pull_request:
     branches: [ master, action-branch ]
-    paths: [ store/, pages/, layouts/, components/]
+    paths: [ store/, pages/, layouts/, components/, .github/]
 # A workflow run is made up of one or more jobs that can run sequentially or in parallels s
 jobs:
   # This workflow contains a single job called "build"
