@@ -17,3 +17,8 @@ jobs:
     - run: |
         echo "Hello ${{ github.event.inputs.name }}!"
         echo "- in ${{ github.event.inputs.home }}!"
+  run_tests: 
+    runs-on: ubuntu-latest
+    steps: 
+    - run: |
+      npm run test
