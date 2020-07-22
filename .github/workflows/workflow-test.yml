@@ -1,6 +1,9 @@
 name: Manually triggered workflow
 on:
+  push:
+    branches: playground
   workflow_dispatch:
+    branches: playground
     inputs:
       name:
         description: 'Person to greet'
@@ -17,3 +20,8 @@ jobs:
     - run: |
         echo "Hello ${{ github.event.inputs.name }}!"
         echo "- in ${{ github.event.inputs.home }}!"
+  run_tests: 
+    runs-on: ubuntu-latest
+    steps: 
+    - run: |
+        npm run test
